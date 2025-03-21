@@ -1,7 +1,7 @@
 services:
   postgres:
     image: postgres:17.4
-    container_name: my_postgres
+    container_name: my_postgres_go_album
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
